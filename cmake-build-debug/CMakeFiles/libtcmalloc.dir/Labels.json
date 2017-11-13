@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/libtcmalloc"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/libtcmalloc.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/libtcmalloc-complete.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-install.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-download.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-update.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-patch.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-configure.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "libtcmalloc" ],
+		"name" : "libtcmalloc"
+	}
+}

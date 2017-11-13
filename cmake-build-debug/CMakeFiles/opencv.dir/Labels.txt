@@ -1,0 +1,13 @@
+# Target labels
+ opencv
+# Source files and their labels
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/opencv
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/opencv.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/opencv-complete.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-install.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-mkdir.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-download.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-update.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-patch.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-configure.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-build.rule

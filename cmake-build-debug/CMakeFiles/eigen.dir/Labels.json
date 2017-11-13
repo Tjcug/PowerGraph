@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/eigen"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/eigen.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/eigen-complete.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/eigen/src/eigen-stamp/eigen-install.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/eigen/src/eigen-stamp/eigen-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/eigen/src/eigen-stamp/eigen-download.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/eigen/src/eigen-stamp/eigen-update.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/eigen/src/eigen-stamp/eigen-patch.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/eigen/src/eigen-stamp/eigen-configure.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/eigen/src/eigen-stamp/eigen-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "eigen" ],
+		"name" : "eigen"
+	}
+}

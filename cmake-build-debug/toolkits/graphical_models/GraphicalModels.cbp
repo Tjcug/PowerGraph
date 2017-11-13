@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GraphicalModels"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\toolkits\;CMake Files\toolkits\computer_vision\;CMake Files\toolkits\graph_algorithms\;CMake Files\toolkits\extensions\;CMake Files\toolkits\clustering\;CMake Files\toolkits\collaborative_filtering\;CMake Files\toolkits\graph_analytics\;CMake Files\toolkits\graphical_models\;CMake Files\toolkits\graphical_models\factors\;CMake Files\toolkits\graphical_models\factors\tests\;CMake Files\toolkits\graphical_models\factors\tests\denoise\;CMake Files\toolkits\graphical_models\factors\tests\test_MAD_relation\;CMake Files\toolkits\graphical_models\factors\tests\test_bool_var\;CMake Files\toolkits\graphical_models\factors\tests\test_dense_table\;CMake Files\toolkits\graphical_models\factors\tests\test_sparse_table\;CMake Files\toolkits\linear_solvers\;CMake Files\toolkits\topic_modeling\;CMake Files\deps\;CMake Files\deps\eigen\;CMake Files\deps\eigen\tmp\;CMake Files\deps\libbz2\;CMake Files\deps\libbz2\tmp\;CMake Files\deps\boost\;CMake Files\deps\boost\tmp\;CMake Files\deps\tcmalloc\;CMake Files\deps\tcmalloc\tmp\;CMake Files\deps\opencv\;CMake Files\deps\opencv\tmp\;CMake Files\deps\event\;CMake Files\deps\event\tmp\;CMake Files\deps\zookeeper\;CMake Files\deps\zookeeper\tmp\;CMake Files\deps\hadoop\;CMake Files\deps\hadoop\tmp\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\graphlab\;CMake Files\src\graphlab\engine\;CMake Files\src\graphlab\graph\;CMake Files\src\graphlab\options\;CMake Files\src\graphlab\parallel\;CMake Files\src\graphlab\scheduler\;CMake Files\src\graphlab\util\;CMake Files\src\graphlab\util\generics\;CMake Files\src\graphlab\serialization\;CMake Files\src\graphlab\logger\;CMake Files\src\graphlab\ui\;CMake Files\src\graphlab\ui\mongoose\;CMake Files\tests\;CMake Files\tests\data\;CMake Files\demoapps\;CMake Files\demoapps\dsl\;CMake Files\demoapps\pagerank\;CMake Files\demoapps\rpc\;CMake Files\apps\;CMake Files\apps\cascades\;CMake Files\apps\concomp\;CMake Files\apps\example\;CMake Files\apps\label_propagation\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dd">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/dd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 dd"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dd/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/dd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 dd/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lbp_structured_prediction">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/lbp_structured_prediction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 lbp_structured_prediction"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lbp_structured_prediction/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/lbp_structured_prediction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 lbp_structured_prediction/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="profile_lbp_synthetic">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/profile_lbp_synthetic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 profile_lbp_synthetic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="profile_lbp_synthetic/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/profile_lbp_synthetic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 profile_lbp_synthetic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="synthetic_image_data">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/synthetic_image_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 synthetic_image_data"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="synthetic_image_data/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/synthetic_image_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 synthetic_image_data/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mplp_denoise">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/mplp_denoise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 mplp_denoise"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mplp_denoise/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/mplp_denoise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 mplp_denoise/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="profile_lbp_synthetic2">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/profile_lbp_synthetic2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 profile_lbp_synthetic2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="profile_lbp_synthetic2/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/profile_lbp_synthetic2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 profile_lbp_synthetic2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="denoise">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise/denoise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise/Makefile&quot;  VERBOSE=1 denoise"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="denoise/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise/denoise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise/Makefile&quot;  VERBOSE=1 denoise/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/denoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_MAD_relation">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation/test_MAD_relation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation/Makefile&quot;  VERBOSE=1 test_MAD_relation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_MAD_relation/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation/test_MAD_relation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation/Makefile&quot;  VERBOSE=1 test_MAD_relation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_MAD_relation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_cat_bool_joint">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/test_cat_bool_joint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 test_cat_bool_joint"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_cat_bool_joint/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/test_cat_bool_joint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 test_cat_bool_joint/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_bool_var">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/test_bool_var" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 test_bool_var"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_bool_var/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/test_bool_var" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 test_bool_var/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_bool_var/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_dense_table">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table/test_dense_table" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table/Makefile&quot;  VERBOSE=1 test_dense_table"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_dense_table/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table/test_dense_table" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table/Makefile&quot;  VERBOSE=1 test_dense_table/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_dense_table/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_neg_relation">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/test_neg_relation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 test_neg_relation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_neg_relation/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/test_neg_relation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 test_neg_relation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_sparse_table">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/test_sparse_table" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 test_sparse_table"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_sparse_table/fast">
+				<Option output="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/test_sparse_table" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_DYNAMIC_LOCAL_GRAPH"/>
+					<Add option="-DHAS_EIGEN"/>
+					<Add option="-DHAS_TCMALLOC"/>
+					<Add option="-DHAS_HADOOP"/>
+					<Add option="-DHAS_MPI"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cxxtest"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include"/>
+					<Add directory="/home/tjmaster/softwares/jdk1.8.0_151/include/linux"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/../.."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 test_sparse_table/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/toolkits/graphical_models/factors/tests/test_sparse_table/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/dd_main.cpp">
+			<Option target="dd"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/dd_main.hpp">
+			<Option target="dd"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/denoise/denoise.cpp">
+			<Option target="denoise"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_MAD_relation/test_MAD_relation.cpp">
+			<Option target="test_MAD_relation"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_bool_var/test_bool_var.cpp">
+			<Option target="test_bool_var"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_bool_var/test_cat_bool_joint.cpp">
+			<Option target="test_cat_bool_joint"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_dense_table/test_dense_table.cpp">
+			<Option target="test_dense_table"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_sparse_table/test_neg_relation.cpp">
+			<Option target="test_neg_relation"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_sparse_table/test_sparse_table.cpp">
+			<Option target="test_sparse_table"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/lbp_structured_prediction.cpp">
+			<Option target="lbp_structured_prediction"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/mplp_denoise.cpp">
+			<Option target="mplp_denoise"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/profile_lbp_synthetic.cpp">
+			<Option target="profile_lbp_synthetic"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/profile_lbp_synthetic2.cpp">
+			<Option target="profile_lbp_synthetic2"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/synthetic_image_data.cpp">
+			<Option target="synthetic_image_data"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/computer_vision/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\computer_vision\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/computer_vision/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\computer_vision\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graph_algorithms/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graph_algorithms\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graph_algorithms/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graph_algorithms\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/extensions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\extensions\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/extensions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\extensions\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/clustering/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\clustering\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/clustering/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\clustering\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/collaborative_filtering/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\collaborative_filtering\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graph_analytics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graph_analytics\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graph_analytics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graph_analytics\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/denoise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\denoise\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/denoise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\denoise\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/denoise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\denoise\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_MAD_relation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_MAD_relation\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_MAD_relation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_MAD_relation\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_MAD_relation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_MAD_relation\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_bool_var/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_bool_var\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_bool_var/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_bool_var\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_bool_var/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_bool_var\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_dense_table/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_dense_table\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_dense_table/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_dense_table\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_dense_table/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_dense_table\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_sparse_table/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_sparse_table\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_sparse_table/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_sparse_table\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/graphical_models/factors/tests/test_sparse_table/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\graphical_models\factors\tests\test_sparse_table\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/linear_solvers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\linear_solvers\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/toolkits/topic_modeling/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolkits\topic_modeling\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/eigen/tmp/eigen-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\deps\eigen\tmp\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/libbz2/tmp/libbz2-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\deps\libbz2\tmp\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/boost/tmp/boost-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\deps\boost\tmp\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/tmp/libtcmalloc-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\deps\tcmalloc\tmp\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/tmp/opencv-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\deps\opencv\tmp\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/event/tmp/libevent-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\deps\event\tmp\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/tmp/zookeeper-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\deps\zookeeper\tmp\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/hadoop/tmp/hadoop-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\deps\hadoop\tmp\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake/FindAnt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\engine\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\graph\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/options/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\options\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/parallel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\parallel\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/scheduler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\scheduler\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\util\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/util/generics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\util\generics\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/serialization/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\serialization\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/logger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\logger\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/ui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\ui\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/src/graphlab/ui/mongoose/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\graphlab\ui\mongoose\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/tests/data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\data\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/tests/data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\data\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/demoapps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\demoapps\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/demoapps/dsl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\demoapps\dsl\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/demoapps/pagerank/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\demoapps\pagerank\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/demoapps/rpc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\demoapps\rpc\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/apps/cascades/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\cascades\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/apps/cascades/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\cascades\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/apps/concomp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\concomp\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/apps/concomp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\concomp\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/apps/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\example\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/apps/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\example\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/apps/label_propagation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\label_propagation\"/>
+		</Unit>
+		<Unit filename="/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/apps/label_propagation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\label_propagation\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

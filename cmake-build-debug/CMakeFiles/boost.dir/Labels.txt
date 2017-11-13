@@ -1,0 +1,13 @@
+# Target labels
+ boost
+# Source files and their labels
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/boost
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/boost.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/boost-complete.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/boost/src/boost-stamp/boost-install.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/boost/src/boost-stamp/boost-mkdir.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/boost/src/boost-stamp/boost-download.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/boost/src/boost-stamp/boost-update.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/boost/src/boost-stamp/boost-patch.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/boost/src/boost-stamp/boost-configure.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/boost/src/boost-stamp/boost-build.rule

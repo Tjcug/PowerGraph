@@ -1,0 +1,99 @@
+/home/tjmaster/ProgramIDE/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph
+-- Boost libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_filesystem.a/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_program_options.a/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_system.a/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_iostreams.a/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_context.a/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_date_time.a
+-- Boost libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_filesystem.a
+-- Boost dyn libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_filesystem.so
+-- Boost libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_program_options.a
+-- Boost dyn libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_program_options.so
+-- Boost libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_system.a
+-- Boost dyn libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_system.so
+-- Boost libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_iostreams.a
+-- Boost dyn libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_iostreams.so
+-- Boost libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_context.a
+-- Boost dyn libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_context.so
+-- Boost libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_date_time.a
+-- Boost dyn libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_date_time.so
+-- Boost Shared libs: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_filesystem.so/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_program_options.so/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_system.so/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_iostreams.so/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_context.so/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/local/lib/libboost_date_time.so
+-- jni.h was found at /home/tjmaster/softwares/jdk1.8.0_151/include/jni.h
+-- Java Home guessed: /home/tjmaster/softwares/jdk1.8.0_151
+-- Could NOT find ANT (missing:  ANT_EXEC) 
+-- Building libhdfs
+-- MPI Found: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+-- Debug build with C++ flags: -O0 -Wno-unused-local-typedefs -Wno-attributes -march=native -Winit-self  -Wall -g  -fopenmp
+-- Debug build with C flags: -O0 -Wno-attributes -march=native -Winit-self  -Wall -g  -fopenmp
+CMake Warning (dev) at CMakeLists.txt:490 (target_link_libraries):
+  Policy CMP0039 is not set: Utility targets may not have link dependencies.
+  Run "cmake --help-policy CMP0039" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Utility target "external_dependencies" should not be used as the target of
+  a target_link_libraries call.
+Call Stack (most recent call first):
+  CMakeLists.txt:725 (requires_core_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:497 (target_link_libraries):
+  Policy CMP0039 is not set: Utility targets may not have link dependencies.
+  Run "cmake --help-policy CMP0039" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Utility target "external_dependencies" should not be used as the target of
+  a target_link_libraries call.
+Call Stack (most recent call first):
+  CMakeLists.txt:725 (requires_core_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:500 (target_link_libraries):
+  Policy CMP0039 is not set: Utility targets may not have link dependencies.
+  Run "cmake --help-policy CMP0039" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Utility target "external_dependencies" should not be used as the target of
+  a target_link_libraries call.
+Call Stack (most recent call first):
+  CMakeLists.txt:725 (requires_core_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:504 (target_link_libraries):
+  Policy CMP0039 is not set: Utility targets may not have link dependencies.
+  Run "cmake --help-policy CMP0039" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Utility target "external_dependencies" should not be used as the target of
+  a target_link_libraries call.
+Call Stack (most recent call first):
+  CMakeLists.txt:725 (requires_core_deps)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Copying Files: *
+-- Up-to-date: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/tests/data
+-- Up-to-date: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/tests/data/test_adj
+-- Up-to-date: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/tests/data/test_adj/test.adj
+-- Up-to-date: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/tests/data/test_snap
+-- Up-to-date: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/tests/data/test_snap/test.snap
+-- Up-to-date: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/tests/data/test_tsv
+-- Up-to-date: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/tests/data/test_tsv/test.tsv
+-- Up-to-date: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/tests/data/CMakeLists.txt
+-- Detected demo app: dsl
+-- Detected demo app: pagerank
+-- Detected demo app: rpc
+-- Detected Toolkit: clustering
+-- Detected Toolkit: collaborative_filtering
+-- Detected Toolkit: computer_vision
+-- Detected Toolkit: extensions
+-- Detected Toolkit: graph_algorithms
+-- Detected Toolkit: graph_analytics
+-- Detected Toolkit: graphical_models
+-- Detected App: denoise
+-- Detected App: test_MAD_relation
+-- Detected App: test_bool_var
+-- Detected App: test_dense_table
+-- Detected App: test_sparse_table
+-- Detected Toolkit: linear_solvers
+-- Detected Toolkit: topic_modeling
+-- Detected App: cascades
+-- Detected App: concomp
+-- Detected App: example
+-- Detected App: label_propagation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug

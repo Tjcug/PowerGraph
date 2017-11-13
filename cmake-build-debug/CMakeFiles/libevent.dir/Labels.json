@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/libevent"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/libevent.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/libevent-complete.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/event/src/libevent-stamp/libevent-install.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/event/src/libevent-stamp/libevent-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/event/src/libevent-stamp/libevent-download.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/event/src/libevent-stamp/libevent-update.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/event/src/libevent-stamp/libevent-patch.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/event/src/libevent-stamp/libevent-configure.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/event/src/libevent-stamp/libevent-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "libevent" ],
+		"name" : "libevent"
+	}
+}

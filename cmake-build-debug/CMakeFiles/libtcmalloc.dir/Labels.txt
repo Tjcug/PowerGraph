@@ -1,0 +1,13 @@
+# Target labels
+ libtcmalloc
+# Source files and their labels
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/libtcmalloc
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/libtcmalloc.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/libtcmalloc-complete.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-install.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-mkdir.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-download.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-update.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-patch.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-configure.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-build.rule

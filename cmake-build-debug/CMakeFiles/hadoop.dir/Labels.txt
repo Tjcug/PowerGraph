@@ -1,0 +1,14 @@
+# Target labels
+ hadoop
+# Source files and their labels
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/hadoop
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/hadoop.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/hadoop-complete.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-install.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-mkdir.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-download.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-update.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-patch.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-configure.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-build.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/hadoop/src/hadoop-stamp/hadoop-test.rule

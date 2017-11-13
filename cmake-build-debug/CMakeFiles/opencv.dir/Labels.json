@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/opencv"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/opencv.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/opencv-complete.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-install.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-download.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-update.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-patch.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-configure.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/opencv/src/opencv-stamp/opencv-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "opencv" ],
+		"name" : "opencv"
+	}
+}

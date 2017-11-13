@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/zookeeper"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/zookeeper.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/zookeeper-complete.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-install.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-download.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-update.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-patch.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-configure.rule"
+		},
+		
+		{
+			"file" : "/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "zookeeper" ],
+		"name" : "zookeeper"
+	}
+}

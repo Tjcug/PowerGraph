@@ -1,0 +1,13 @@
+# Target labels
+ zookeeper
+# Source files and their labels
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/zookeeper
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/zookeeper.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/cmake-build-debug/CMakeFiles/zookeeper-complete.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-install.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-mkdir.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-download.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-update.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-patch.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-configure.rule
+/home/tjmaster/ProgramProjects/CLionProjects/PowerGraph/deps/zookeeper/src/zookeeper-stamp/zookeeper-build.rule
